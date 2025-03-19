@@ -74,7 +74,7 @@ public class ClienteFTP extends JFrame
 
 	public ClienteFTP() throws IOException
 	{
-		super("CLIENTE B SICO FTP");
+		super("CLIENTE Basico FTP");
 		//para ver los comandos que se originan
 		cliente.addProtocolCommandListener(new PrintCommandListener(new PrintWriter (System.out)));
 		cliente.connect(servidor); //conexi n al servidor
